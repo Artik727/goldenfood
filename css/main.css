@@ -1,0 +1,86 @@
+#main-carousel img {
+  width: 100%;
+}
+
+#main-carousel {
+  position: relative;
+}
+#main-carousel .wooden-indicators {
+  position: absolute;
+  bottom: 0;
+  background: url(../img/contentMenu.png);
+  height: 80px;
+  width: 988px;
+
+  left: 50%;
+  margin-left: -494px;
+
+  z-index: 2;
+}
+
+.wooden-indicators ul {
+  margin-top: 22px;
+  color: #FFF;
+  list-style: none;
+  padding-left: 0;
+}
+.wooden-indicators ul li {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.wood-blank {
+  background: url(../img/menu_tahta.jpg);
+  height: 211px;
+
+  border-bottom: 5px #C40120 solid;
+}
+.wood-blank a {
+  color: #333;
+  font-size: 16px;
+}
+.pad-20 {
+  padding-top: 25px;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+  background: url(../img/bg_header.jpg);
+  color: #FFF;
+  border: none;
+}
+.navbar {
+  height: 71px;
+}
+.navbar-nav {
+  margin-left: 200px;
+}
+ .navbar-nav li a {
+   line-height: 41px;
+   font-size: 16px;
+   color: #FFF !important;
+ }
+
+.navbar-nav li.active a {
+  background: rgba(0, 0, 0, .3) !important;
+}
+
+.navbar .container {
+  position: relative;
+}
+
+.brand {
+  z-index: 1;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.footer {
+  padding: 20px 0;
+  line-height: 74px;
+}
+.footer-nav a {
+  padding-left: 20px;
+  color: #C40120;
+}
